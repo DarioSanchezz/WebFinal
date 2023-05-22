@@ -1,3 +1,14 @@
+@media screen and (max-width:1024px){
+  .cat{
+    display: block;
+  }
+  #tip{
+    width: 96%;
+  }
+  #hor{
+    width: 70%;
+  }
+}
 
 @media screen and (max-width:768px){
     *{
@@ -42,7 +53,7 @@
         color: #D72223;
       }
       #hor{
-        width: 50%;
+        width: 70%;
       }
       #imag{
         width: 40%;
@@ -227,18 +238,27 @@
         width: 55%;
     }
     #buscador{
-        width: 100%;
+        /* width: 100%;
         padding-right: 0px;
         padding-top: 0px;
-        float: right;
+        float: right; */
+        display: none;
      }
      #tip{
         width: 82%;
-        text-align: left;
+        text-align: center;
     }
     .lista{
         display: block;
     }
+    #cs{
+      text-align: center;
+    }
+    #log{
+      width: 8%;
+    }
+
+
 }
 @media screen and (max-width:506px){
     #buscador{

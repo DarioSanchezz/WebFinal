@@ -13,12 +13,6 @@
 <body>
     <div class="cabeza">
         <div id="per"><img src="imagenes/img1.png" id="imag"></div>
-        <div id="cs">
-            <a href=""><img src="imagenes/insta.webp" id="log"></a>
-            <a href=""><img src="imagenes/twit.png" id="log"></a>
-            <a href=""><img src="imagenes/face.png" id="log"></a>
-            <a href=""><img src="imagenes/gmail.png" id="log"></a>
-        </div>
         <div id="buscador">
             <input type="text" name="buscar" id="buscar" placeholder="Introducir búsqueda">
             <button type="submit" id="boton">BUSCAR</button>
@@ -38,39 +32,48 @@
     <hr>
     <hr>
     <div class="big">
-        <div class="tuto">
-            <h2><u>RESERVA DE MESA POR TELEFONO</u></h2>
-            Para reservar tu mesa en nuestro restaurante , puedes llamarnos desde 13.00 a 16.30 y desde 19.30 hasta 23.00 a los siguientes números de teléfono: 918 916 915(Amsterdam), 928 926 925(Monaco), 938 936 935(Africa), 948 946 945(Peru).
-            <p>
-            <h2><u>RESERVA DE MESA POR INTERNET</u></h2>
-            ¡La forma más fácil y rápida de reservar tu mesa! Simplemente rellena el siguiente formulario y haz clic en “Enviar”.
-            <p>
-            En ese momento debes ver un mensaje en esta misma página indicando que tu reserva se ha enviado con éxito y queda confirmada. Sólo en el caso de que hubiera cualquier problema, nos pondríamos en contacto contigo por email o por teléfono.
-            <p>
-            También debes recibir en breve un email de confirmación. Si pasa media hora y no lo recibes, es posible que te hayas equivocado al dar tu email, y en ese caso te recomendamos que repitas la reserva o que nos llames por teléfono.
+        <div class="re">
+            <div class="tuto">
+                <h2><u>RESERVA DE MESA POR TELEFONO</u></h2>
+                Para reservar tu mesa en nuestro restaurante , puedes llamarnos desde 13.00 a 16.30 y desde 19.30 hasta 23.00 a los siguientes números de teléfono: 918 916 915(Amsterdam), 928 926 925(Monaco), 938 936 935(Africa), 948 946 945(Peru).
+                <p>
+                <h2><u>RESERVA DE MESA POR INTERNET</u></h2>
+                ¡La forma más fácil y rápida de reservar tu mesa! Simplemente rellena el siguiente formulario y haz clic en “Enviar”.
+                <p>
+                En ese momento debes ver un mensaje en esta misma página indicando que tu reserva se ha enviado con éxito y queda confirmada. Sólo en el caso de que hubiera cualquier problema, nos pondríamos en contacto contigo por email o por teléfono.
+                <p>
+                También debes recibir en breve un email de confirmación. Si pasa media hora y no lo recibes, es posible que te hayas equivocado al dar tu email, y en ese caso te recomendamos que repitas la reserva o que nos llames por teléfono.
+            </div>
+            <div class="ter">
+                <img src="imagenes/reserva.png" id="ge">
+            </div>
         </div>
         <hr>
-        <div class="tuto">
-            <h2><u>FORMULARIO DE RESERVA</u></h2>
-            <label>Tu nombre:</label><br>
-            <input type="text" id="nombre" placeholder="Pepa"><p>
-            <label>Tu(s) apellido(s):</label><br>
-            <input type="text" id="apellido" placeholder="Rodriguez"><p>
-            <label>Tu teléfono:</label><br>
-            <input type="text" id="telefono" placeholder="667 334 771"><p>
-            <label>Tu correo electrónico:</label><br>
-            <input type="text" id="correo" placeholder="tunombre@correo.com"><p>
-            <label>Confirmar correo electrónico:</label><br>
-            <input type="text" id="correo" placeholder="tunombre@correo.com"><p>
-            <label>Fecha de la reserva:</label><br>
-            <input type="date" id="fecha"><p>
-            <label>Hora de la reserva:</label><br>
-            <input type="time" id="hora"><p>
-            <label>Número de personas:</label><br>
-            <input type="number" id="num"><p>
-            <label>Observaciones y peticiones especiales:</label><br>
-            <input type="text" id="obs"><p>
-            <input type="submit" id="but" name="ENVIAR"/>
+        <h2 id="co"><u>FORMULARIO DE RESERVA</u></h2>
+        <div class="for">
+            <div class="tuto">
+                <label>Tu nombre:</label><br>
+                <input type="text" id="nombre" placeholder="Pepa"><p>
+                <label>Tu(s) apellido(s):</label><br>
+                <input type="text" id="apellido" placeholder="Rodriguez"><p>
+                <label>Tu teléfono:</label><br>
+                <input type="text" id="telefono" placeholder="667 334 771"><p>
+                <label>Tu correo electrónico:</label><br>
+                <input type="text" id="correo" placeholder="tunombre@correo.com"><p>
+                <label>Confirmar correo electrónico:</label><br>
+                <input type="text" id="correo" placeholder="tunombre@correo.com"><p>
+            </div>
+            <div class="tuto">
+                <label>Fecha de la reserva:</label><br>
+                <input type="date" id="fecha"><p>
+                <label>Hora de la reserva:</label><br>
+                <input type="time" id="hora"><p>
+                <label>Número de personas:</label><br>
+                <input type="number" id="num"><p>
+                <label>Observaciones y peticiones especiales:</label><br>
+                <input type="text" id="obs"><p>
+                <input type="submit" id="but" name="ENVIAR"/>
+            </div>
         </div>
     </div>
     <br>
@@ -102,8 +105,14 @@
             </ul>
         </div>
     </div>
+    <div id="cs">
+        <a href="https://www.instagram.com/"><img src="imagenes/insta.webp" id="log"></a>
+        <a href="https://twitter.com/?lang=es"><img src="imagenes/twit.png" id="log"></a>
+        <a href="https://es-es.facebook.com/"><img src="imagenes/face.png" id="log"></a>
+        <a href="https://www.google.com/intl/es/gmail/about/"><img src="imagenes/gmail.png" id="log"></a>
+    </div>
     <div class="der">
-        <span id="col"><a href=" ">Septiembre 2015 - Todos los derechos reservados</a></span>
+        <span id="col"><a href="https://www.privacypolicies.com/live/3bc8212a-758d-491d-9074-219f6e76e802">Septiembre 2015 - Todos los derechos reservados</a></span>
     </div>
 </body>
 <script src="javascript.js"></script>
