@@ -8,6 +8,15 @@
   #hor{
     width: 70%;
   }
+  .re{
+    display: block;
+  }
+  .tuto{
+    width: 100%;
+  }
+  .ge{
+    width: 20%;
+  }
 }
 
 @media screen and (max-width:768px){
