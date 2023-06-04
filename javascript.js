@@ -50,3 +50,8 @@ function contacto(){
     alert("Informacion enviada, le contactaremos lo antes posible. <3")
   }
 }
+var boton = document.getElementById('boton2');
+boton.addEventListener('click', function() {
+  document.body.classList.toggle('dark-mode');
+});
+

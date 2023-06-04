@@ -14,8 +14,8 @@
     <div class="cabeza">
         <div id="per"><img src="imagenes/img1.png" id="imag"></div>
         <div id="buscador">
-            <input type="text" name="buscar" id="buscar" placeholder="Introducir búsqueda">
-            <button type="submit" id="boton">BUSCAR</button>
+            <span id="buscar">Elija modo oscuro/claro </span>
+            <button type="submit" id="boton2" onclick="claro()">CLARO/OSCURO</button>
         </div>
     </div>
     <br>
@@ -29,6 +29,178 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
+    </div>
+    <div class="tit">TEMAKIS</div>
+    <div id="sep">
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/Temaki1.png" id="nm">
+                <div class="informacion">
+                    <p><u>Temaki Surimi</u></p>
+                    <br>surimi, mayonesa y aguacate.
+                    <p class="precio">$3<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div >
+                <img src="imagenes/Temaki2.png" id="nm">
+                <div class="informacion">
+                    <p><u>Temaki Vegano</u></p>
+                    <br>zanahoria, pepino, aguacate, wakame y sésamo.
+                    <p class="precio">$3<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/Temaki3.png" id="nm">
+                <div class="informacion">
+                    <p><u>Temaki Deluxe</u></p>
+                    <br>surimi, mayonesa, aguacate, cebolla crujiente y soja caramelizada.
+                    <p class="precio">$5<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/Temaki4.png" id="nm">
+                <div class="informacion">
+                    <p><u>Temaki de Atún Picante</u></p>
+                    <br>Atun rojo, especias, salsa de la casa.
+                    <p class="precio">$3<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tit">MAKIS</div>
+    <div id="sep">
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/maki2.png" id="nm">
+                <div class="informacion">
+                    <p><u>Maki de Salmon</u></p>
+                    <br>Se reduce la cantidad de arroz, salmon y aguacate.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div >
+                <img src="imagenes/maki1.png" id="nm">
+                <div class="informacion">
+                    <p><u>Maki de Atún</u></p>
+                    <br>Se reduce la cantidad  de arroz, atún rojo y aguacate.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/maki3.png" id="nm">
+                <div class="informacion">
+                    <p><u>Maki Vegetal</u></p>
+                    <br>pepino, zanahoria, agucate y especias.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/maki4.png" id="nm">
+                <div class="informacion">
+                    <p><u>Maki de Anguila y Queso</u></p>
+                    <br>Se reduce la cantidad de arroz, anguila, queso al estilo japones y cebolla crujiente.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tit">NIGIRIS</div>
+    <div id="sep">
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/nigiri1.png" id="nm">
+                <div class="informacion">
+                    <p><u>Nigiri de Salmon</u></p>
+                    <br>arroz con una lamina de salmon por encima.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div >
+                <img src="imagenes/nigiri2.png" id="nm">
+                <div class="informacion">
+                    <p><u>Nigiri de Anguila con Huevo</u></p>
+                    <br>arroz con una lamina de anguila, huevo de codorniz y trufa.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/nigiri3.png" id="nm">
+                <div class="informacion">
+                    <p><u>Nigiri Vacuno</u></p>
+                    <br>tataki de vacuno, mantequilla y wasabi.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/nigiri4.png" id="nm">
+                <div class="informacion">
+                    <p><u>Nigiri de Atún Rojo</u></p>
+                    <br>arroz con una lamina de atun rojo por encima.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tit">SASHIMIS</div>
+    <div id="sep">
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/sashimi1.png" id="nm">
+                <div class="informacion">
+                    <p><u>Sashimi Vegetariano</u></p>
+                    <br>Es como el nigiri pero sin arroz y con salmon vegano.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div >
+                <img src="imagenes/sashimi2.png" id="nm">
+                <div class="informacion">
+                    <p><u>Sashimi de Atún Rojo</u></p>
+                    <br>lamina de atún rojo.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/sashimi3.png" id="nm">
+                <div class="informacion">
+                    <p><u>Sashimi de Salmon</u></p>
+                    <br>lamina de salmon.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor">
+            <div>
+                <img src="imagenes/sashimi4.png" id="nm">
+                <div class="informacion">
+                    <p><u>Sashimi de Lubina</u></p>
+                    <br>lamina de lubina.
+                    <p class="precio">$199<span>.99</span></p>
+                </div>
+            </div>
+        </div>
     </div>
             
     <hr>
