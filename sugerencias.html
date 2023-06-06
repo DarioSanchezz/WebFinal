@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Chino Dariux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="imagenes/img1.png">
+</head>
+<body>
+    <div class="cabeza">
+        <div id="per"><img src="imagenes/img1.png" id="imag"></div>
+        <div id="buscador">
+            <span id="buscar">Elija modo oscuro/claro </span>
+            <button type="submit" id="boton2" onclick="claro()">CLARO/OSCURO</button>
+        </div>
+    </div>
+    <br>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="men5">INICIO</a>
+        <a href="restaurante.html" class="men4">RESTAURANTE</a>
+        <a href="carta.html" class="men3">CARTA</a>
+        <a href="reservas.html" class="men2">RESERVAS</a>
+        <a href="contacto.html" class="men1">CONTACTO</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <hr>
+    <div id="sug"><h1><u>REALICE NUESTRO FORMULARIO PARA MEJORAR NUESTRO RESTAURANTE</u></h1></div>
+    <p>
+    <div id="germi2">
+        <fieldset id="germi">
+            <legend><h2>Calidad de la comida</h2></legend>
+            <label>Valore el grado de calidad de comida de Dariux Sushi</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <fieldset id="germi">
+            <legend><h2>Calidad de los productos</h2></legend>
+            <label>Valore el grado de calidad de los productos y los ingredientes de Dariux Sushi</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <fieldset id="germi">
+            <legend><h2>Originalidad</h2></legend>
+            <label>Valore el grado de originalidad de clas propuestas culinarias de Dariux Sushi</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <fieldset id="germi">
+            <legend><h2>Precio</h2></legend>
+            <label>Valore el precio de los productos de Dariux Sushi</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <fieldset id="germi">
+            <legend><h2>Amabilidad</h2></legend>
+            <label>Valore el tarto recibido por nuestro personal</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <fieldset id="germi">
+            <legend><h2>Rapidez</h2></legend>
+            <label>Valore si se le atendio y recibio su pedido con la suficiente rapidez, teniendo en cuenta que estamos ante un sushi artesanal, hecho al momento</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <fieldset id="germi">
+            <legend><h2>Sonrisa</h2></legend>
+            <label>Valore si nuestro personal le atendio de manera amable y cortes, con una sonrisa</label><p>
+            1<input type="radio" value="1" name="boton"><br>
+            2<input type="radio" value="2" name="boton"><br>
+            3<input type="radio" value="3" name="boton"><br>
+            4<input type="radio" value="4" name="boton"><br>
+            5<input type="radio" value="5" name="boton"><br>
+        </fieldset>
+        <p id="espacio2">
+        <button onclick="sugerencias()" id="repa">ENVIAR</button>
+    </div>
+    <hr>
+    <div class="lista">
+        <div id="cuat">
+            <ul>
+                <li><h2>NAV</h2></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="dudas.html">Preguntas y Dudas</a></li>
+                <li><a href="sugerencias.html">Sugerencias</a></li>
+            </ul>
+        </div>
+        <div id="cuat">
+            <ul>
+                <li><h2>NOTICIAS</h2></li>
+                <li><a href="noticias1.html">¡¡Gyozas, nuevo sushi solamente los meses de Abril del mes!! 🥟🥟 </a></li>
+                <li><a href="noticias2.html">¡¡El Pan Bao Japo, esta devuelta el mes de Febrero y Marzo!! 🍞🍞</a></li>
+                <li><a href="noticias3.html">¡¡Sushi Sandwich Deluxe, devuelta el mes de Mayo!! 🥪🥪</a></li>
+            </ul>
+        </div>
+        <div id="cuat">
+            <ul>
+                <li><h2>CONTACTO</h2></li>
+                <li>Telefono: 918 916 915<br>Calle Pedrarcos Esconde el Pollo 24, 28540 Amsterdam</li>
+                <li>Telefono: 928 926 925<br>Calle Jaime el Pelicano 36, 28970 Monaco</li>
+                <li>Telefono: 938 936 935<br>Calle Barranco el Patadas 5, 28660 Africa</li>
+                <li>Telefono: 948 946 945<br>Calle Peru en Ruinas 52, 26560 Peru</li>
+                <li>Telefono: 948 946 945<br>Calle Peru en Ruinas 52, 26560 Peru</li>
+            </ul>
+        </div>
+    </div>
+    <div id="cs">
+        <a href="https://www.instagram.com/"><img src="imagenes/insta.webp" id="log"></a>
+        <a href="https://twitter.com/?lang=es"><img src="imagenes/twit.png" id="log"></a>
+        <a href="https://es-es.facebook.com/"><img src="imagenes/face.png" id="log"></a>
+        <a href="https://www.google.com/intl/es/gmail/about/"><img src="imagenes/gmail.png" id="log"></a>
+    </div>
+    <div class="der">
+        <span id="col"><a href="https://www.privacypolicies.com/live/3bc8212a-758d-491d-9074-219f6e76e802">Septiembre 2015 - Todos los derechos reservados</a></span>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>

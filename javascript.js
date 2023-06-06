@@ -54,4 +54,42 @@ var boton = document.getElementById('boton2');
 boton.addEventListener('click', function() {
   document.body.classList.toggle('dark-mode');
 });
+function dudas() {
+  var div = document.getElementById("te");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+
+function dudas1() {
+  var div = document.getElementById("mec");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+
+function dudas2() {
+  var div = document.getElementById("dec");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+
+function dudas3() {
+  var div = document.getElementById("rec");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function sugerencias(){
+  alert("Su valoracion es muy importante para mejorar nuestra compañia. Muchas gracias por su aportacion <3")
+}
 

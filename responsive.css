@@ -1,6 +1,29 @@
+@media screen and (max-width:1440px){
+}
 @media screen and (max-width:1024px){
   .cat{
     display: block;
+  }
+  .noti3{
+    display: block;
+  }
+  #noti1{
+    width: 100%;
+  }
+  #noti2{
+    width: 100%;
+  }
+  #te{
+    width: 55%;
+  }
+  #mec{
+    width: 55%;
+  }
+  #dec{
+    width: 55%;
+  }
+  #rec{
+    width: 55%;
   }
   #tip{
     width: 96%;
@@ -25,10 +48,33 @@
         margin: 0;
         border: solid 0px red;
       }
+      #espacio2{
+        height: 5vh;
+      }
+      #te{
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      #mec{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+      }
+      #dec{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+      }
+      #rec{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+      }
       #but{
         font-size: 10px;
         margin-top: 20px;
-        width: 10%;
+        width: 20%;
       }
       #lin{
         margin-left: 200px;
@@ -215,6 +261,28 @@
       #nombre{
         width: 60%;
     }
+    #repa{
+      width: 20%;
+    }
+    #bit{
+      text-align: left;
+    }
+    #te{
+      margin-left: -10px;
+      width: 70%;
+    }
+    #mec{
+      margin-left: -10px;
+      width: 70%;
+    }
+    #dec{
+      margin-left: -10px;
+      width: 70%;
+    }
+    #rec{
+      margin-left: -10px;
+      width: 70%;
+    }
     #apellido{
         width: 60%;
     }
@@ -237,7 +305,7 @@
         width: 60%;
     }
     #but{
-        width: 15%;
+        width: 30%;
     }
     #lin{
      position: relative;
@@ -275,6 +343,9 @@
         padding-right: 0px;
         padding-top: 0px;
         float: right;
+     }
+     #but{
+      width: 20%;
      }
 }
 @media screen and (max-width:375px){

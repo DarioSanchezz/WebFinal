@@ -375,12 +375,88 @@ a{
 
 #sep{
     display: flex;
+    overflow: scroll;
 }
 .tit{
   
     text-align: center;
     font-size: 30px;
     border: solid 1px white;
+}
+#bit{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 500px;
+    padding-top: 30px;
+}
+
+#germi2{
+    width: 100%;
+    height: 300vh;
+}
+#b{
+    width: 70%;
+    height: 7vh;
+}
+#sug{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#repa{
+    width: 10%;
+    height: 5vh;
+}
+.noti3{
+    display: flex;
+}
+#noti1{
+  width: 40%;
+}
+#noti4{
+    width: 100%;
+    height: 40vh;
+    padding-top: 60px;
+}
+#noti2{
+    width: 60%;
+}
+#te{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    background-color: #ea4c4c;
+    margin-left: 218px;
+    display: none;
+}
+#mec{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    background-color: #ea4c4c;
+    margin-left: 218px;
+    display: none;
+}
+#dec{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    background-color: #ea4c4c;
+    margin-left: 218px;
+    display: none;
+}
+#rec{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    background-color: #ea4c4c;
+    margin-left: 218px;
+    display: none;
+}
+#ti{
+    text-align: center;
 }
 
 
